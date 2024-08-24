@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web core website layout 7.5</title>
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header-block">
+		<div class="brands-block__heading-container">
+			<p class="brands-block__heading">Ремонт техники различных брендов</p>
+		</div>
+	</div>
+<div class="slider__shadow"></div>
+	<div class="slider">
+
+		<div class="swiper mySwiper">
+
+	    <div class="swiper-wrapper">
+
+	      <div class="swiper-slide">
+
+	      	<div class="slider__element"><img src="images/lenovo.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/samsung.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/apple.svg" class="slider__logo--apple"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/viewsonic.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/bosch.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/hp.svg" class="slider__logo--hp"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/acer.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/sony.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/lenovo.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/samsung.svg" class="slider__logo"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	      <div class="swiper-slide">
+	      	<div class="slider__element"><img src="images/apple.svg" class="slider__logo--apple"><img class="slider__go-button" src="images/go.svg"></div>
+	      </div>
+	    </div>
+	    <div class="swiper-pagination"></div>
+	  </div>
+	</div> 
+
+	<div class="brands-block">
+		<div class="brands-block__brand"><img class="brands-block__logo" src="images/lenovo.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand"><img class="brands-block__logo" src="images/samsung.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand"><img class="brands-block__logo--apple" src="images/apple.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand"><img class="brands-block__logo" src="images/viewsonic.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand"><img class="brands-block__logo" src="images/bosch.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand"><img class="brands-block__logo--hp" src="images/hp.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand brands-block__brand--1120"><img class="brands-block__logo" src="images/acer.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__brand brands-block__brand--1120"><img class="brands-block__logo" src="images/sony.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+		<div class="brands-block__additional-blocks">
+			<div class="brands-block__brand"><img class="brands-block__logo" src="images/lenovo.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+			<div class="brands-block__brand"><img class="brands-block__logo" src="images/samsung.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+			<div class="brands-block__brand"><img class="brands-block__logo--apple" src="images/apple.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+			<div class="brands-block__brand brands-block__brand--768"><img class="brands-block__logo" src="images/sony.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+			<div class="brands-block__brand brands-block__brand--768"><img class="brands-block__logo" src="images/acer.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+
+			<div class="brands-block__brand brands-block__brand--768"><img class="brands-block__logo" src="images/acer.svg"><img class="brands-block__go-button" src="images/go.svg"></div>
+		</div>
+	</div>
+
+	<div class="show-more-btn">
+			<p><img src="images/expand.svg">Показать все</p>
+		</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+    var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 2,
+  spaceBetween: 188,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+  </script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
