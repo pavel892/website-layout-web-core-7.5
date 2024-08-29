@@ -98,6 +98,10 @@ body {
 
     /* swiper slider */
 
+   .swiper .swiper-slide {
+      overflow: visible;
+    }
+
     .swiper-wrapper {
       position: relative;
     }
